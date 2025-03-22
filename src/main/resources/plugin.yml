@@ -1,0 +1,38 @@
+name: WorldManager
+version: '1.0-SNAPSHOT'
+main: cn.enderrealm.worldManager.WorldManager
+api-version: '1.18'
+
+commands:
+  worldmanager:
+    description: 多世界管理插件主命令
+    aliases: [wm, world]
+    usage: /worldmanager [子命令] [参数]
+    permission: worldmanager.admin
+    permission-message: §c你没有权限使用此命令！
+
+permissions:
+  worldmanager.admin:
+    description: 允许使用所有世界管理命令
+    default: op
+  worldmanager.create:
+    description: 允许创建新世界
+    default: op
+  worldmanager.load:
+    description: 允许加载世界
+    default: op
+  worldmanager.unload:
+    description: 允许卸载世界
+    default: op
+  worldmanager.teleport:
+    description: 允许传送到其他世界
+    default: op
+  worldmanager.list:
+    description: 允许查看世界列表
+    default: op
+  worldmanager.delete:
+    description: 允许删除世界
+    default: op
+  worldmanager.rename:
+    description: 允许重命名世界
+    default: op

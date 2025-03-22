@@ -1,0 +1,19 @@
+# WorldManager 配置文件
+
+# 有效的世界模板列表
+# 只有在此列表中的模板才会被加载和显示
+templates:
+  - 'example_template'
+  - 'nether_template'
+  - 'end_template'
+
+# 配置说明：
+# 1. 所有模板必须放在插件数据文件夹的templates目录下
+# 2. 只有在上面列表中的模板才会被识别为有效模板
+# 3. 如果templates目录下有未在列表中列出的模板文件夹，它们将被忽略
+
+# 调试模式
+# 设置为true时会输出更详细的日志信息
+debug: false
+
+
